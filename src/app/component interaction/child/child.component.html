@@ -1,0 +1,25 @@
+<!-- (1.4) -->
+<div *ngIf="option == 1">
+    displaying data from parent : {{ parentData }}
+    <hr>
+</div>
+<br>
+
+<!-- (2.4) -->
+<div *ngIf="option == 2">
+    Intercept data from parent : {{ modifiedName }}
+    <hr>
+</div>
+<br>
+
+<!-- (3.4) -->
+<div *ngIf="option == 3">
+    <button (click)="onVoteClick()" >Vote?</button>
+</div>
+
+
+<!-- (6.4) -->
+<div *ngIf="option == 6">
+    <button (click)="displayParentData()">Display</button>
+    <div> {{data}} </div>
+</div>

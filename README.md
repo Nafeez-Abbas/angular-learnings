@@ -1,21 +1,4 @@
 
-Anatomy
-_________________________________________________________
-|                 App/Root module                       |
-|                                                       |
-|       Components                                      |
-|                                                       |
-|                    FM                                 |
-|                  |--------|                           |
-|                  | C1  C2 |                           |
-|                  |--------|                           |
-|                                                       |
-|                       C3                              |
-|                                                       |
-|                 Service                               |
-|                                                       |
-|_______________________________________________________|
-
 Angular
     - dev platform based on typeScript
     - component driven framework
@@ -24,6 +7,7 @@ Angular
 App:-
 1) Component 
 1.1) Component life cycle
+1.2) Component Interaction
 
 
 

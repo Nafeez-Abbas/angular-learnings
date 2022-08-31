@@ -1,3 +1,44 @@
+
+Anatomy
+_________________________________________________________
+|                 App/Root module                       |
+|                                                       |
+|       Components                                      |
+|                                                       |
+|                    FM                                 |
+|                  |--------|                           |
+|                  | C1  C2 |                           |
+|                  |--------|                           |
+|                                                       |
+|                       C3                              |
+|                                                       |
+|                 Service                               |
+|                                                       |
+|_______________________________________________________|
+
+Angular
+    - dev platform based on typeScript
+    - component driven framework
+
+
+App:-
+1) Component 
+1.1) Component life cycle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # AngularBasics
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.

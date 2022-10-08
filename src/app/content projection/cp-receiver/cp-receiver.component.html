@@ -1,0 +1,13 @@
+
+<!-- 1.2) Add ng-content where you want to insert the content -->
+<!-- <div *ngIf="option == 1">
+    <h3>Single-slot Content Projection</h3>
+    <ng-content></ng-content>
+</div> -->
+
+<!-- 2.2) Use select attribute in ng-content -->
+<div *ngIf="option == 2">
+    <h3>Multi-slot Content Projection</h3>
+    <ng-content></ng-content>
+    <ng-content select="[mySelector]"></ng-content>
+</div>

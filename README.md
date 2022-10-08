@@ -1,13 +1,23 @@
 
-Angular
+# Angular
+
     - dev platform based on typeScript
+
     - component driven framework
 
 
-App:-
+
+## Component:-
+
 1) Component 
+
 1.1) Component life cycle
-1.2) Component Interaction
+
+1.2) Component Interaction : Also refer (https://angular.io/guide/inputs-outputs)
+
+1.3) Component Styles - Refer (https://angular.io/guide/component-styles#component-styles)
+
+1.4) Content Projection
 
 
 

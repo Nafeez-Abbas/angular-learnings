@@ -20,6 +20,12 @@
 1.4) Content Projection
 
 
+## Template:-
+    - a template is a chunk of HTML
+    
+    1) Text Interpolation
+    2) Template Statements
+    3) Binding
 
 
 

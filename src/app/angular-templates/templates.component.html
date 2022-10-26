@@ -1,0 +1,58 @@
+
+
+<div> 1) Interpolation test :: {{ textInterpolation }}</div>
+
+<br>
+
+<div>
+    3) Binding:
+
+    <div>3.1) Property binding</div>
+    <!-- Enclosing a property in [] -->
+    <!-- Angular evaluates the RHS and assigns to the property -->
+    <!-- Here imageAlt is read from component file and rendered to the alt property -->
+    <img src="" [alt]="imageAlt">
+
+    <div>3.2) Attribute binding</div>
+    <img src="" [attr.alt]="imageAlt">
+
+    <div>3.3) Event binding</div>
+    <!-- syntax: target event name in () = quoted template statement -->
+    <!-- Binds eventBinding method to click event -->
+    <button (click)="eventBinding()" >{{button}}</button>
+
+    <div>3.4) Class/Style binding</div>
+    <!-- Binding to single class -->
+    <!-- If the expression in the right evaluates to true, 
+        the class(class-1) is added to the element -->
+    <div [class.class-1]="enableClass1" >Binding to single class</div>
+    <br>
+    <!-- Binding to Multiple classes -->
+    <!-- [class]="classExpression" -->
+    <!-- The classExpression can be: 
+        1) A space-delimitted string of class names
+        2) An object with keys as class names and boolean value ex: {class-1: true} 
+            if value is true, the key is added as class to the element 
+        3) An array of class names -->
+    <div class="class-1 class-2" >Binding to Multiple classes - space-delimitted string</div>
+    <br>
+    <div [class]="{'class-1': true, 'class-2': true}" >Binding to Multiple classes - Object</div>
+    <br>
+    <div [class]="['class-1', 'class-2']" >Binding to Multiple classes - Array</div>
+    <br>
+    
+    <!-- Style binding - use prefix 'style' followed by dot and name of css style -->
+    <!-- expression background is evaluated and its value is assigned to the style -->
+    <div [style.background-color]="background" >Binding to single style</div>
+    <br>
+    <!-- Binding to multiple styles:
+        [style]="expression"
+        The expression can be : 
+            1) string of styles
+            2) an object with style names as keys and values as its values
+        Binding array to style is not supported -->
+    <div [style]="stylesString" >Binding to multiple styles - String</div>
+    <br>
+    <div [style]="stylesObject" >Binding to multiple styles - Object</div>
+    <br>
+</div>

@@ -26,6 +26,8 @@
     1) Text Interpolation
     2) Template Statements
     3) Binding
+    4) Pipes
+    5) Template Reference Variable
 
 
 

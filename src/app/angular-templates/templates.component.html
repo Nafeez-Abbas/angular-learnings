@@ -56,3 +56,15 @@
     <div [style]="stylesObject" >Binding to multiple styles - Object</div>
     <br>
 </div>
+
+<br>
+
+
+<div>
+    Template input variable:
+    <ul>
+        <ng-template ngFor let-hero let-i="index" [ngForOf]="heroes">
+            <li>Hero number {{i}}: {{hero}}
+        </ng-template>
+    </ul>
+</div>

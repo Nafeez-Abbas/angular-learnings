@@ -47,4 +47,33 @@ export class Templates {
         // 5) Two way binding
             // combines property & event binding
             // syntax - [()]
+
+
+    // 4) Pipes - transform string, amount, date or other data for display
+        // - simple functions to use in templates - accept an input value and return transformed value
+        // - Builtin Pipes => DatePipe, UpperCasePipe, DecimalPipe
+        // - Pipe operator (|)
+        // syntax: value | pipeName:Parameter
+        // If Pipe accepts multiple parameters: value | pipeName:Parameter1:Parameter2
+        // Chaining Pipes => value | pipeName1 | pipe2
+
+
+    // 5) Template Reference Variable
+        // - Syntax: Declare using # symbol
+        // - <input #phone placeholder="phone number" /> - here, phone is the template ref variable
+        // and input element is its value.
+        
+        // How Angular assigns values to template variables:
+            // Angular assigns a template variable a value based on where you declare the variable
+            // 1) If you declare the variable on a component, the variable refers to the component instance.
+            // 2) If you declare the variable on a standard HTML tag, the variable refers to the element.
+            // 3) If you declare the variable on an <ng-template> element, the variable refers to a TemplateRef instance which represents the template
+        
+        // Template input variable:
+        // A template input variable is a variable with a value that is set when an instance of that template is created.
+        heroes: string[] = ['Hero 1', 'Hero 2'];
+        // Refer: (https://angular.io/guide/template-reference-variables#template-input-variable)
+
+    // 6) You can use SVG's as templates
+        // Refer: (https://angular.io/guide/svg-in-templates)
 }

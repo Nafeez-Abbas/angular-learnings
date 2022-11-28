@@ -29,7 +29,15 @@
     4) Pipes
     5) Template Reference Variable
 
+## Directives:-
+    Directives are classes that add additional behavior to elements in your Angular applications.
+    1) Attribute directive 
+        - Change the appearance or behavior of an element, component, or another directive.
+    2) Structural directive
+        - Change the DOM layout by adding and removing DOM elements.
 
+## Dependency Injection:-
+    a design pattern and mechanism for creating and delivering some parts of an application to other parts of an application that require them.
 
 
 

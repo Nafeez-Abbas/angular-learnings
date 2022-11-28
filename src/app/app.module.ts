@@ -19,7 +19,7 @@ import { CpSenderComponent } from './content projection/cp-sender/cp-sender.comp
     ParentComponent,
     CpSenderComponent,
     CpReceiverComponent,
-    Templates
+    Templates,
   ],
   // array of modules that are going to be used in app module
   imports: [
